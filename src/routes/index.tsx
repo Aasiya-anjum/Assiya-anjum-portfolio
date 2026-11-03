@@ -27,7 +27,7 @@ function useTyping() {
   const [i, setI] = useState(0);
   const [del, setDel] = useState(false);
   useEffect(() => {
-    const word = roles[i % roles.length];
+    const word = roles[i % roles.length] ?? "";
     const t = setTimeout(() => {
       if (!del && text === word) return setDel(true);
       if (del && text === "") { setDel(false); setI(i + 1); return; }
@@ -197,7 +197,7 @@ function ContactForm() {
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const r = schema.safeParse(Object.fromEntries(new FormData(e.currentTarget)));
-    if (!r.success) return toast.error(r.error.issues[0].message);
+    if (!r.success) { toast.error(r.error.issues[0]?.message ?? "Please check the form"); return; }
     toast.success("Message sent! I'll get back to you soon.");
     e.currentTarget.reset();
   };
