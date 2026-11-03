@@ -1,29 +1,66 @@
-# Welcome to your Lovable project
+# Aasiya Anjum — Personal Portfolio
 
-This project was built with [Lovable](https://lovable.dev).
+> **This website belongs to Aasiya Anjum**, a 2nd Year Engineering Student specializing in **Web Development** and **App Development**.
 
-## Build with Lovable
+A modern, dark neon-themed personal portfolio that showcases my academic journey, interests, technical skills and ways to get in touch.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+---
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## 👩‍💻 About Me
 
-## Development
+I'm **Aasiya Anjum**, currently in my **2nd year of Engineering**. I love building clean, responsive websites and smooth, user-friendly mobile apps. I'm always learning new technologies and turning ideas into real, working products.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+**Focus areas**
+- 🌐 Web Development
+- 📱 App Development
+- 🎨 UI / UX Design
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+---
+
+## ✨ Website Highlights
+
+- **Hero section** with a glowing profile frame and animated role text
+- **Academic Journey** showing my current year and engineering modules
+- **Interests & Passions** grid with interactive glowing cards
+- **Tech Stack & Skills** with proficiency bars and skill tags
+- **Contact section** with a sleek form and social links
+- Fully responsive design for mobile, tablet and desktop
+- Smooth animations, glassmorphism and neon accents
+
+---
+
+## 🛠️ Built With
+
+| Technology | Purpose |
+| --- | --- |
+| React | User interface |
+| TanStack Start | Framework and routing |
+| Tailwind CSS | Styling and design system |
+| Lucide Icons | Icons |
+| TypeScript | Type-safe code |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+bun install
+
+# Start the development server
+bun run dev
 ```
 
-## Built with
+Then open `http://localhost:8080` in your browser.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+---
+
+## 📬 Connect With Me
+
+- **GitHub:** [github.com/your-username](https://github.com/your-username)
+- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- **Email:** your.email@example.com
+
+---
+
+<p align="center">© 2026 Aasiya Anjum. Crafted in the Digital Realm.</p>
